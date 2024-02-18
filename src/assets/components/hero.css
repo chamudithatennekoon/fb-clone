@@ -3,11 +3,12 @@
     color: black;
 
     img{
-        width: 60%;
+        width: 55%;
     }
 
     p {
-        font-size: 24px;
+        font-size: 28px;
+        font-weight: 500;
     }
     
 }

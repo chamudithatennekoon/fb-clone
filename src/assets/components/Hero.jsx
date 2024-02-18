@@ -3,10 +3,10 @@ import './hero.css'
 
 function Hero() {
   return (
-    <div className="container col-12">
+    <div className="container col-12 mt-5">
       <div className="row align-items-center g-lg-5 py-5">
 
-        <div className="left col-lg-6 text-center text-lg-start">
+        <div className="left col-lg-7 text-center text-lg-start">
 
           <img src={fbLogo} alt=""/>
           
@@ -15,9 +15,9 @@ function Hero() {
           </p>
         </div>
 
-        <div className="right col-md-12 col-lg-6">
+        <div className="right col-md-12 col-lg-5">
             <div className="loginForm">
-          <form className="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+          <form className="p-4 p-md-3 border rounded-3 bg-body-tertiary">
             <div className="form-floating mb-3">
               <input
                 type="email"
