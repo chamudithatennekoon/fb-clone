@@ -1,22 +1,23 @@
 import fbLogo from '../fb-logo.svg'
+import './hero.css'
 
 function Hero() {
   return (
-    <div class="container col-12">
-      <div class="row align-items-center g-lg-5 py-5">
+    <div className="container col-12">
+      <div className="row align-items-center g-lg-5 py-5">
 
-        <div class="col-lg-6 text-center text-lg-start">
-          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
-          <img src={fbLogo} alt="" width="75%" />
-          </h1>
-          <p class="col-lg-10 fs-4">
+        <div className="left col-lg-6 text-center text-lg-start">
+
+          <img src={fbLogo} alt=""/>
+          
+          <p className="col-lg-10 fs-4">
           Facebook helps you connect and share with the people in your life.
           </p>
         </div>
 
-        <div class="col-md-12 col-lg-6">
-          <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
-            <div class="form-floating mb-3">
+        <div className="right col-md-12 col-lg-6">
+          <form className="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <div className="form-floating mb-3">
               <input
                 type="email"
                 class="form-control"
