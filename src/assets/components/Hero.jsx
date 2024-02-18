@@ -35,14 +35,12 @@ function Hero() {
               />
               <label for="floatingPassword">Password</label>
             </div>
-            <div class="checkbox mb-3">
-              <label>
-                <input type="checkbox" value="remember-me" /> Remember me
-              </label>
-            </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">
               Log in
             </button>
+            <div className="pwf">
+            <a href="#">Forgotten password?</a>
+            </div>
             <hr class="my-4" />
 
             <button class="w-100 btn btn-lg btn-primary" type="submit">
