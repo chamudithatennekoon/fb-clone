@@ -51,7 +51,7 @@ function Hero() {
           </form>
         </div>
         <p>
-        <b>Create a Page</b> for a celebrity, brand or business.
+        <b><a href="">Create a Page</a></b> for a celebrity, brand or business.
         </p>
         
     
