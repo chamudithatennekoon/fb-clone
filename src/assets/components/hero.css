@@ -1,11 +1,13 @@
 .container .row .left {
 
+    color: black;
+
     img{
         width: 50%;
     }
-    
-}
 
-.container .row .left {
-    color: black;
+    p {
+        font-size: 24px;
+    }
+    
 }

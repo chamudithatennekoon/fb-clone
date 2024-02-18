@@ -10,7 +10,7 @@ function Hero() {
 
           <img src={fbLogo} alt=""/>
           
-          <p className="col-lg-10 fs-4">
+          <p>
           Facebook helps you connect and share with the people in your life.
           </p>
         </div>
