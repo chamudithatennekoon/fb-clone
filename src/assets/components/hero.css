@@ -3,7 +3,7 @@
     color: black;
 
     img{
-        width: 50%;
+        width: 60%;
     }
 
     p {
@@ -19,5 +19,21 @@
         margin-top: 10px;
         text-align: center;
     }
+
+    p {
+        text-align: center;
+        margin-top: 10px;
+    }
     
+}
+
+.container .row .right .create {
+        background-color: #42b72a;
+        border: none;
+        color: #ffffff;
+        font-weight: 600;
+}
+
+.container .row .right .create:hover {
+    background-color: #448d35;
 }

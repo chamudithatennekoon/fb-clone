@@ -16,6 +16,7 @@ function Hero() {
         </div>
 
         <div className="right col-md-12 col-lg-6">
+            <div className="loginForm">
           <form className="p-4 p-md-5 border rounded-3 bg-body-tertiary">
             <div className="form-floating mb-3">
               <input
@@ -26,7 +27,7 @@ function Hero() {
               />
               <label for="floatingInput">Email address</label>
             </div>
-            <div class="form-floating mb-3">
+            <div className="form-floating mb-3">
               <input
                 type="password"
                 class="form-control"
@@ -42,15 +43,18 @@ function Hero() {
             <a href="#">Forgotten password?</a>
             </div>
             <hr class="my-4" />
-
-            <button class="w-100 btn btn-lg btn-primary" type="submit">
-              Create Account
+            <div className="container d-flex justify-content-center">
+            <button className="create btn btn-lg">
+              Create new account
             </button>
-
-            <small class="text-body-secondary">
-              By clicking Sign up, you agree to the terms of use.
-            </small>
+            </div>
           </form>
+        </div>
+        <p>
+        <b>Create a Page</b> for a celebrity, brand or business.
+        </p>
+        
+    
         </div>
       </div>
     </div>
